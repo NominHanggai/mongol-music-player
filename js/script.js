@@ -12,8 +12,6 @@ musicList = wrapper.querySelector(".vertical-music-list"),
 moreMusicBtn = wrapper.querySelector("#more-music"),
 closemoreMusic = musicList.querySelector("#close");
 
-console.log("good", wrapper.querySelector(".nmd"), "bad");
-
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
 
