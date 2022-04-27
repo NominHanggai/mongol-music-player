@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Coding By SAMIR PAUL - samirpaul1.github.io -->
+<!-- Modified by Mulliken-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="♫♪ A music plater of Mongolian style"/>
+    <meta name="author" content="Mulliken">
+    <meta name="keywords" content="Music, Music Player, Mongolian, Mongol, Traditional Mongolian, Audio Player, PlayList, Songs, Music Collection, HTML, CSS, JS, Music App">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://samirpaul1.github.io/music/"/>
+    <meta property="og:url" content="https://samirpaul1.github.io/music/"/>
+  
+  
+  <title>Mongolian Music Player 蒙古语 音乐播放器</title>
+  <!-- <link rel="shortcut icon" href="?.ico"> -->
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="icon.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons play">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <div class="progress-area">
+      <div class="progress-bar">
+        <audio id="main-audio" src=""></audio>
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">0:00</span>
+      </div>
+    </div>
+
+        
+    <!-- <div class="top-bar">
+      <i class="material-icons">expand_more</i>
+      <span>Now Playing</span>
+      <i class="material-icons">more_horiz</i>
+    </div> -->
+
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+
+    <div class="img-area">
+      <img src="" alt="">
+    </div>
+
+    <div class="vertical-music-list">
+      <div class="music-list">
+        <div class="header">
+          <i id="close" class="material-icons">close</i>
+          <div class="row">
+            <i class= "list material-icons">queue_music</i>
+            
+            <span> ᠳᠠᠭᠤᠨ ᠤ ᠵᠢᠭᠰᠠᠭᠠᠯᠲᠠ</span>
+          </div>
+        </div>
+        <ul>
+          <!-- here li list are coming from js -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/music-list.js"></script>
+  <script src="js/script.js"></script>
+ 
+
+</body>
+</html>
