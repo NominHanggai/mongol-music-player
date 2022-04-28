@@ -68,7 +68,9 @@ body{
   font-size: 28px;
   user-select: none;
   background: linear-gradient(#3b8dcb 100%,#6daddb 100%);
-  background-clip: text;
+  /* background-clip: text; */
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
   color: transparent;
 }
 /* .controls i:nth-child(2),
