@@ -13,27 +13,39 @@ let allMusic = [
   {
     name: "ᠠᠬᠢ ᠨᠢ ᠦᠭᠡᠢ ᠭᠠᠵᠠᠷ",
     artist: "ᠲᠩᠷᠢ",
-    img: "music-1",
+    img: "不长矮草的地方",
     src: "不长矮草的地方"
   },
   {
     name: "ᠲᠠᠯ᠎ᠠ ᠨᠤᠲᠤᠭ",
     artist: "ᠲᠩᠷᠢ",
-    img: "music-2",
+    img: "tal-nutag",
     src: "tal-nutag"
   },
   {
-    name: "ᠲᠠᠯ᠎ᠠ ᠨᠤᠲᠤᠭ",
-    artist: "ᠲᠩᠷᠢ",
-    img: "music-2",
-    src: "tal-nutag"
+    name: "ᠠᠷᠪᠠᠨ ᠬᠤᠶᠠᠷ ᠵᠢᠯ",
+    artist: "Nair",
+    img: "十二生肖arvan-hoyor-jil",
+    src: "十二生肖arvan-hoyor-jil"
   },
   {
-    name: "ᠲᠠᠯ᠎ᠠ ᠨᠤᠲᠤᠭ",
+    name: "ᠬᠥᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠨᠤᠲᠤᠭ ",
     artist: "ᠲᠩᠷᠢ",
-    img: "music-2",
-    src: "tal-nutag"
+    img: "蓝色蒙古故乡Hoh-Mongol-nutag",
+    src: "蓝色蒙古故乡Hoh-Mongol-nutag"
   },
+  {
+    name: "ᠮᠠᠯᠴᠢᠨ ᠮᠢᠨᠦ ᠵᠢᠷᠭᠠᠯ",
+    artist: "ᠭᠡᠷᠡᠯᠲᠦ",
+    img: "牧民的幸福malchin-minii-jargal-Gerelt",
+    src: "牧民的幸福malchin-minii-jargal-Gerelt"
+  },
+  {
+    name: " ᠠᠭᠢᠲᠤ ᠲᠣᠯᠣᠭᠠᠢ",
+    artist: "ᠰᠠᠷᠠᠭᠤᠯᠰᠠᠶᠢᠬᠠᠨ",
+    img: "艾蒿山头Saruulsaihan_agit_tolgoi",
+    src: "艾蒿山头Saruulsaihan_agit_tolgoi"
+  }
 
   // like this paste it and remember to give comma after ending of this bracket }
   // {
