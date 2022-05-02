@@ -1,13 +1,14 @@
 /* @import url('poppins_font_google.css'); */
 @font-face {
   font-family: 'Menk-Hawang-Tig';
-  src: url('web-resources/MHW8103.ttf')
+  src: url('web-resources/MHW8103.ttf');
+  unicode-range: U+1800-18AF; /* Mongolian Unicode range */
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Menk-Hawang-Tig", "Poppins", "sans-serif";
+  font-family: "Poppins", "Menk-Hawang-Tig";
 }
 
 *::before, *::after{
@@ -178,7 +179,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-family: "Menk Hawang Tig, sans-serif";
+  /* font-family: "Menk Hawang Tig, sans-serif"; */
 }
 .top-bar i{
   font-size: 30px;
@@ -216,13 +217,13 @@ body{
 }
 .song-details .name{
   font-size: 21px;
-  font-family: "Menk-Hawang-Tig";
+  /* font-family: "Menk-Hawang-Tig"; */
 }
 .song-details .artist{
   font-size: 18px;
   opacity: 0.9;
   line-height: 35px;
-  font-family: "Menk-Hawang-Tig";
+  /* font-family: "Menk-Hawang-Tig"; */
 }
 
 
@@ -318,7 +319,7 @@ body{
   /* border-left: 2px solid #7e7e7e; */
 }
 .music-list ul li .row{
-  font-family: "Menk-Hawang-Tig";
+  /* font-family: "Menk-Hawang-Tig"; */
 }
 .music-list ul li:first-child{
   border-left: 0px;
