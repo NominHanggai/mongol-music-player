@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Menk-Hawang-Tig';
   src: url('web-resources/MHW8103.ttf');
-  unicode-range: U+1800-18AF; /* Mongolian Unicode range */
+  unicode-range: U+1800-18AF; /* Traditional Mongolian Unicode range */
 }
 *{
   margin: 0;
@@ -209,6 +209,7 @@ body{
 }
 .song-details{
   writing-mode: vertical-lr;
+  text-orientation: sideways;
   /* text-align: center; */
   margin-left: 50px;
 }
@@ -230,6 +231,7 @@ body{
 
 .vertical-music-list {
   writing-mode: vertical-lr;
+  text-orientation: sideways;
   overflow-x: scroll;
   opacity: 0;
   display: block;
@@ -257,7 +259,6 @@ body{
   position: relative;
   background: var(--white);
   /* height: 100%; */
-  writing-mode: vertical-lr;
   /* left: 0;
   bottom: -55%; */
   pointer-events: auto;
